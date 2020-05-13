@@ -9,7 +9,6 @@ Template to create a Terraform module.
 ### Complete example
 
 <!-- auto-terraform-docs -->
-
 ## Requirements
 
 No requirements.
@@ -20,16 +19,16 @@ No provider.
 
 ## Inputs
 
-| Name              | Description                                                       | Type     | Default | Required |
-| ----------------- | ----------------------------------------------------------------- | -------- | ------- | :------: |
-| module_depends_on | Use this if you want this module to run after other modules       | `list`   | `[]`    |    no    |
-| xxx               | See [\_var_xxx.example.tfvars.json](_var_xxx.example.tfvars.json) | `string` | `""`    |    no    |
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| module\_depends\_on | Use this if you want this module to run after other modules | `list` | `[]` | no |
+| xxx | See [\_var\_xxx.example.tfvars.json](\_var\_xxx.example.tfvars.json) | `string` | `""` | no |
 
 ## Outputs
 
 | Name | Description |
-| ---- | ----------- |
-| xxx  | n/a         |
+|------|-------------|
+| xxx | n/a |
 
 <!-- auto-terraform-docs -->
 
@@ -54,7 +53,6 @@ All contributions are welcome! Please see the [docs/CONTRIBUTING.md](docs/CONTRI
 
 <!-- auto-contribute -->
 <!-- auto-license -->
-
 ## License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details
