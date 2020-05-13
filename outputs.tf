@@ -1,0 +1,4 @@
+output "xxx" {
+  value       = ""
+  description = ""
+}
